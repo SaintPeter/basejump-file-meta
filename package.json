@@ -1,0 +1,24 @@
+{
+  "name": "file-meta",
+  "version": "1.0.0",
+  "description": "Free Code Camp - File Metadata Microservice - API Basejump",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaintPeter/basejump-file-meta.git"
+  },
+  "author": "rex.schrader@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaintPeter/basejump-file-meta/issues"
+  },
+  "homepage": "https://github.com/SaintPeter/basejump-file-meta#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "multer": "^1.1.0"
+  }
+}
