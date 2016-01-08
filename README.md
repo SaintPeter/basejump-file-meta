@@ -1,13 +1,12 @@
-## API Basejump: Timestamp Microservice
+## API Basejump: File Metadata Microservice
 By Rex "SaintPeter" Schrader
 
-For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Timestamp Microservice](http://www.freecodecamp.com/challenges/basejump-timestamp-microservice)
+For [Free Code Camp](http://freecodecamp.com) - [API Basejump: File Metadata Microservice](http://www.freecodecamp.com/challenges/basejump-file-metadata-microservice)
 
 ### User Stories
 
-1. I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
-2. If it does, it returns both the Unix timestamp and the natural language form of that date.
-3. If it does not contain a date or Unix timestamp, it returns null for those properties.
+1. I can submit a FormData object that includes a file upload.
+2. When I submit something, I will receive the file size in bytes within the JSON response
 
 ### Live Site
-[http://saintpeter-ts-micro.herokuapp.com](http://saintpeter-ts-micro.herokuapp.com)
+[http://saintpeter-file-metadata.herokuapp.com](http://saintpeter-file-metadata.herokuapp.com)

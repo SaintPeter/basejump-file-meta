@@ -8,7 +8,7 @@ document.getElementById('fileform').addEventListener('submit', function(e) {
   var req = new XMLHttpRequest();
   req.open("POST", '/upload');
   req.onload = function(event) {
-    if(event.statusCode >= 200 && event.statusCode < 400) {
+    if(req.status >= 200 && req.status < 400) {
       var myData = JSON.parse(event.target.responseText);
       var content = document.createElement('tr');
       content.innerHTML = "<td>" + myData.filename + "</td><td>" + myData.size + "</td>";
